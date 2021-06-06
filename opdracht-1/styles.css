@@ -20,6 +20,10 @@ ul > li {
     color: hsl(110, 29%, 52%);
 }
 
+li > a:hover {
+    color: red;
+}
+
 /* 1.3 Geef de 'span' tag in de footer een beschrijvende class name en maak de lettergrootte kleiner  */
 
 span {
@@ -33,7 +37,7 @@ span {
 /* 1.5 Maak een hover- en visited stijl voor alle links in 'main'. */
 
 main a:hover{
-    background-color: red;
+    color: red;
 }
 
 main a:visited {
@@ -43,13 +47,13 @@ main a:visited {
 /* Verander de achtergrond van de SignUp button. Tip: https://developer.mozilla.org/en-US/docs/Web/CSS/Attribute_selectors  */
 
 input[type="submit"]{
-    background: deepskyblue;
+    background: red;
 }
 
 /* Geef het tekst-veld een blauwe rand wanneer hij in focus is */
 
-article:focus {
-    color: blue;
+input[type="text"]: {
+    background-color: yellowgreen;
 }
 
 /* Target alle heading tags op de pagina en zet hun font-family op 'Noto Sans JP', sans-serif */
